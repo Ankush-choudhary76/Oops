@@ -1,26 +1,48 @@
-#include<iostream>
-using namespace std ;
+ #include <iostream>
+ using namespace std;
+             //       default construction
+// class simple
+// {
+// public:
+//     simple()
+//     {
+//         cout << "constructor is call...." << endl;
+      
+//     }
+//     void display()
+//     {
+//         cout << " fun call " << endl;
+//     }
+// };
+// int main()
+// {
+//     simple t ;
 
-class complex {
-    int a,b;
+//      t.display();
+// }
+
+
+// prameterized construction
+
+class simple
+{
+    int n;
+    string name;
+
 public:
-complex(void); // invoked whenever an object is created
-
-    
-  void printnumber(){
-    cout<<"your number is "<<a<<"+"<<b<<"i"<<endl;
-  }
-
+    simple(int num, string a)
+    {
+        n = num;
+        name = a;
+    }
+    void display()
+    {
+        cout << "n : " << n << endl;
+        cout << "name : " << name << endl;
+    }
 };
-
-complex :: complex(void){
-    a=10;
-    b=4;
-    //  cout<<"HEllo world";
-}
-
-int main (){
-complex c1,c2;
-c1.printnumber();
-c2.printnumber();
+int main()
+{
+    simple t(4, "sanjay");
+    t.display();
 }

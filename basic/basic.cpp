@@ -1,37 +1,18 @@
-// #include<iostream>
-// using namespace std;
-// class hero {
-// // properties
-// int health;
-
-
-// };
-// int main (){
-
-//     // creation of odject
-//     hero h1;
-//     cout<<"size : "<<sizeof(h1)<<endl;
-// return 0;
-// }
-
-
 #include<iostream>
-using namespace std;
-class hero {
-// properties
+using namespace std ;
 
-public:
-int health;
-char level;
+class simple {
+    private:
+    int n =10;
+    public:
+    void show (){
+
+        cout<<"value of n is :"<<n<<endl;
+    }
 
 };
+
 int main (){
-
-    // creation of odject
-    hero ramesh;
-
-    cout<<"health is  : "<< ramesh.health   <<endl;
-     cout<<"level is : "<<  ramesh.level <<endl;
-return 0;
+    simple T;
+    T.show();
 }
-  
