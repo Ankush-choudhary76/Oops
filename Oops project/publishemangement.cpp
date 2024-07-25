@@ -1,5 +1,4 @@
-//                              PUBLISHER MANAGEMENT SYSTEM 
-#include<iostream>
+ #include<iostream>
 using namespace std ;
 class publisher{
     private :
