@@ -63,7 +63,7 @@ right= b.setpin(pin);
   
 do
 {
-   cout<<" press a one key :"<<endl;1234
+   cout<<" press a one key :"<<endl;
    cin>>n;
    switch (n)
    {
