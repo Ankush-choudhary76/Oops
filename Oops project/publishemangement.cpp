@@ -63,7 +63,7 @@ int main (){
     break;
   
   default:
-  cout<<" Sahi number choose krle bhai ";
+  cout<<"  choose a correct number ";
     break;
   }
 }
